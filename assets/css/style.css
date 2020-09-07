@@ -1,0 +1,566 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    max-width: 100%;
+    width: 100%;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: none;
+}
+
+button, a, input[type='button'] {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+h5,
+h6 {
+    font-weight: 400;
+}
+
+.h100vh {
+    height: 100vh;
+}
+
+.content {
+    margin: 80px auto;
+    padding: 50px 0;
+}
+
+.intro-container {
+    margin-top: 20vh;
+    max-width: 750px;
+    width: 90%;
+}
+
+.intro-container h1 {
+    margin-bottom: 0;
+}
+
+.btn-outline-success:hover {
+    border-color: #FF8811;
+    background: #FF8811;
+}
+
+.promotion-container {
+    margin-top: -30vh;
+}
+
+.promotion-container .container .row:nth-child(2) {
+    padding-top: 60px;
+}
+
+.promotion-container .container .col-md-8 .col-md-12:nth-child(2) {
+    padding-top: 30px;
+}
+
+.products .box-item,
+.promotion-container .box-item {
+    height: 350px;
+}
+
+.box-item {
+    margin-bottom: 10px;
+}
+
+.promotion-container .box-item-big {
+    height: 350px;
+    width: 100%;
+}
+
+.products .box-item a,
+.promotion-container .box-item a {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.promotion-container .box-item-big a {
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0);
+}
+
+.deliv {
+    border-color: #fff;
+    color: #fff;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.deliv-dark {
+    border-color: rgb(5, 47, 95);
+    color: rgb(5, 47, 95);
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.caption-app {
+    width: 100%;
+    padding: 0 100px;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.products .box-item .caption,
+.promotion-container .box-item .caption,
+.promotion-container .box-item-big .caption {
+    bottom: 35px;
+    left: 30px;
+    right: 30px;
+    padding: 0;
+    color: #000;
+    text-shadow: none;
+}
+
+.recruitment-container .box-item {
+    height: 395px;
+}
+
+.recruitment-container .box-item .caption {
+    padding-right: 30px;
+    font-size: 2em;
+    bottom: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.img-fill {
+    padding: 4px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.category .img-fill {
+    object-fit: contain;
+    padding: 15px 15px 80px;
+}
+
+.img-fill-grid {
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: initial;
+}
+
+.img-fill:hover {
+    background: #FF8811;
+    border-color: #FF8811;
+}
+
+.form-horizontal {
+    width: 100%;
+}
+
+.form-row {
+    height: 85px;
+    line-height: 85px;
+    background: #FFFFFF;
+    padding: 4px;
+    border: 3px #FF8811 solid;
+    border-radius: .25rem;
+}
+
+.form-row button {
+    height: 70px;
+    width: 153px;
+}
+
+.form-row input {
+    border: none;
+    font-size: 21px;
+    color: black;
+}
+
+.splash-text {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.caption {
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    /*color: #FFFFFF;*/
+    /*text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);*/
+    bottom: -10px;
+    right: 20px;
+    position: absolute;
+}
+
+h3.footnote {
+    padding: 50px 50px 25px;
+    text-align: center;
+    display: flex;
+    flex-basis: auto;
+    background: #FFFFFF;
+}
+
+h3::before, h3::after {
+    color: white;
+    content: '';
+    flex: 2;
+    width: 100px;
+    border-bottom: groove 2px;
+    margin: auto 0.25em;
+    box-shadow: 0 -1px;
+}
+
+h4.caption {
+    bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+p.caption {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.jumbotron {
+    margin-top: 0;
+    background-image: url("../images/top.jpg");
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: center top;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5b2400+0,5b2400+100&0.3+0,0+100 */
+    background: -moz-linear-gradient(top, rgba(91, 36, 0, 0.3) 0%, rgba(91, 36, 0, 0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(91, 36, 0, 0.3) 0%, rgba(91, 36, 0, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(91, 36, 0, 0.3) 0%, rgba(91, 36, 0, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d5b2400', endColorstr='#005b2400', GradientType=0); /* IE6-9 */
+}
+
+.jumbotron:after {
+    position: absolute;
+    content: "";
+    bottom: -45.4%;
+    right: -8%;
+    height: 463px;
+    width: 200%;
+    background: #fff;
+    transform: rotate(-7deg);
+}
+
+.btn-outline-primary {
+    border-color: #FF8811;
+    border-width: 2px;
+    color: #FF8811;
+}
+
+.btn-primary {
+    background: #FF8811;
+    color: white;
+    border-color: #FF8811;
+
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background: #FF8811;
+    border-color: #FF8811;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+    background: #FF8811;
+    border-color: #FF8811;
+}
+
+.container {
+    padding: 15px;
+
+}
+
+footer:before {
+    position: absolute;
+    content: "";
+    /* bottom: -170%; */
+    right: -8%;
+    height: 300px;
+    width: 200%;
+    top: -94px;
+    background: #f2f2f2;
+    z-index: -1;
+    transform: rotate(-7deg);
+}
+
+footer {
+    padding-top: 70px;
+    position: relative;
+    overflow: hidden;
+    background: #f2f2f2;
+}
+
+.footer-bar {
+    background: #FF8811;
+    color: #FFFFFF;
+}
+
+.footer-bar p {
+    padding: 20px;
+    margin: 0;
+}
+
+.hyperlinks-container {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 2.1em;
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.hyperlinks-container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hyperlinks-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Category page */
+
+.category {
+    padding-top: 120px;
+}
+
+.category .products .product {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    padding: 10px 15px;
+}
+
+.category .products .product:hover,
+.category .products .product:focus,
+.category .products .product:active {
+    text-decoration: none;
+    border-color: #FF8811;
+}
+
+.category .products .product .title {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 15px;
+    min-height: 40px;
+}
+
+.category .products .product .img-container {
+    display: block;
+    height: 220px;
+    text-align: center;
+}
+
+.category .products .product .img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.category .products .product .price-container {
+    padding: 15px 0 10px;
+    -ms-text-align-last: right;
+    text-align: center;
+    color: #000;
+}
+
+.category .products .product .price-container .from,
+.category .products .product .price-container .till {
+    display: inline-block;
+    color: #000;
+}
+
+/* Product filter */
+
+.product-filter {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    padding: 10px 15px;
+}
+
+.product-filter h3 {
+    color: #ccc;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.product-filter h3:before,
+.product-filter h3:after {
+    display: none;
+}
+
+.product-filter .filter-category-title {
+    font-size: 18px;
+}
+
+.product-filter .filters {
+    margin-bottom: 15px;
+}
+
+/* Responsive settings */
+
+@media screen and (max-width: 1100px) {
+    .jumbotron:after {
+        height: 585px;
+    }
+
+    .promotion-container {
+        margin-top: calc(-30vh - 122px);
+    }
+
+    .recruitment-container .box-item .caption {
+        font-size: 23px;
+    }
+
+    .promotion-container .box-item .caption, .promotion-container .box-item-big .caption {
+        text-align: right;
+        padding: 20px;
+        margin: 0;
+        width: 100%;
+        right: 0;
+    }
+
+    .promotion-container .box-item, .promotion-container .box-item-big {
+        position: relative;
+    }
+}
+
+#loginForm .loading {
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    text-align: center;
+    padding: 120px 80px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .caption-app {
+        padding: 0 55px;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .jumbotron:after {
+        height: 715px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .jumbotron:after {
+        height: 715px;
+    }
+
+    .intro-container {
+        margin-top: 10vh;
+    }
+
+    .splash-text {
+        font-size: 75%;
+    }
+
+    .form-row {
+        height: 64px;
+        line-height: 52px;
+    }
+
+    .form-row button {
+        height: 54px;
+        position: absolute;
+        width: 98px;
+        right: 2px;
+    }
+
+    .promotion-container {
+        margin-top: -40vh;
+    }
+
+    .products .box-item,
+    .promotion-container .box-item,
+    .promotion-container .box-item-big,
+    .recruitment-container .box-item {
+        margin-bottom: 50px;
+    }
+
+    .recruitment-container .box-item .caption {
+        bottom: 60px;
+    }
+
+    .hyperlinks-container {
+        display: block
+    }
+
+    .hyperlinks-container div {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 631px) {
+    .jumbotron:after {
+        height: 800px;
+        right: -38%
+    }
+
+    .jumbotron {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .navbar-brand img {
+        width: 50vw;
+    }
+}
